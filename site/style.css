@@ -682,3 +682,10 @@ h2 {
     animation: none !important;
   }
 }
+
+/* Preserve keyboard focus when the third-party embed injects its styles. */
+.signup-panel .formkit-submit:focus-visible,
+.signup-panel .formkit-input:focus-visible {
+  outline: 3px solid var(--accent) !important;
+  outline-offset: 4px;
+}

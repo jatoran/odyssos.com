@@ -10,7 +10,7 @@ GitHub stores the source but does not automatically deploy it.
 
 ## External destinations
 
-Lone Sands links temporarily to https://lonesands.adamtbandel.workers.dev/ and its film section while domain registration awaits completion.
+Lone Sands links to https://lonesands.com/ and its film section.
 Horizon links to https://horizonofsteel.com/, its press kit, and Steam app 5438430 with studio-specific UTM parameters.
 Contact uses `contact@odyssos.com`.
 The existing Kit embed retains form ID `6adb48b02b` and its current Horizon-specific audience.
@@ -28,6 +28,7 @@ Current limits: https://developers.cloudflare.com/workers/observability/logs/wor
 `site/site.js` retains a maximum of 200 local browser records from the last seven days in `odyssos:diagnostics`.
 It records page lifecycle, activated link labels and destination hostnames, and runtime failures.
 There is no diagnostic upload and no form input is logged.
+The browser's deferred ResizeObserver notification from the Kit embed is recorded as a warning, while application failures retain error severity and their messages.
 Unavailable localStorage does not affect navigation.
 
 ## Verification

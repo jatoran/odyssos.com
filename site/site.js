@@ -26,13 +26,20 @@
   }
   log("page-ready", { path: location.pathname });
   addEventListener("pagehide", () => log("page-hidden"));
-  addEventListener("error", (event) =>
+  addEventListener("error", (event) => {
+    const observerDeferred =
+      event.message ===
+      "ResizeObserver loop completed with undelivered notifications.";
     log(
-      "runtime-error",
-      { source: event.filename?.split("/").pop(), line: event.lineno },
-      "error",
-    ),
-  );
+      observerDeferred ? "layout-observer-deferred" : "runtime-error",
+      {
+        source: event.filename?.split("?")[0].split("/").pop(),
+        line: event.lineno,
+        message: event.message?.slice(0, 180),
+      },
+      observerDeferred ? "warn" : "error",
+    );
+  });
   addEventListener("unhandledrejection", () =>
     log("unhandled-rejection", {}, "error"),
   );

@@ -22,8 +22,3 @@ Do not label that form as studio-wide or Lone Sands updates without changing its
 New games should receive their own catalog entry with real artwork, accurate availability, and working links.
 
 See [.docs/design/00_OVERVIEW.md](.docs/design/00_OVERVIEW.md) for the documentation map.
-
-## Domain activation status
-
-Lone Sands catalog links temporarily use https://lonesands.adamtbandel.workers.dev/ while its Porkbun registration is incomplete.
-After https://lonesands.com/ resolves and passes HTTPS checks, replace those hrefs in site/index.html and redeploy.
