@@ -1,4 +1,4 @@
-﻿# === OS Files ===
+# === OS Files ===
 .DS_Store
 Thumbs.db
 desktop.ini
@@ -36,3 +36,10 @@ out/
 # === JetBrains IDEs ===
 .idea/
 *.iml
+
+# Local hosting and review state
+.wrangler/
+.trash/
+.playwright-cli/
+.playwright-mcp/
+.env*

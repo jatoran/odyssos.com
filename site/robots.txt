@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://odyssos.com/sitemap.xml
