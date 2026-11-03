@@ -15,8 +15,8 @@ Horizon links to https://horizonofsteel.com/, its press kit, and Steam app 54384
 Contact uses `contact@odyssos.com`.
 The existing Kit embed retains form ID `6adb48b02b` and its current Horizon-specific audience.
 Newsletter submissions go directly to Kit; this site does not handle or store email addresses.
-The existing Discord link belongs to the Horizon community.
-Changing either integration's audience requires reviewing its external configuration first.
+The Discord link (`discord.gg/vQJ4BgkZwd`, a permanent invite) opens the studio's server, which covers every Odyssos game.
+Changing the Kit form's audience requires reviewing its subscriber preferences and email automation first.
 
 ## Diagnostics and retention
 
