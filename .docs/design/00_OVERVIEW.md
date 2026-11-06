@@ -1,7 +1,7 @@
 # Odyssos site overview
 
 Odyssos's public site is the studio catalog and contact point for its games.
-The catalog currently includes Lone Sands and Horizon of Steel.
+The catalog currently includes Lone Sands, Horizon of Steel, It's a Montage and Odyssos.
 
 ## Surfaces
 

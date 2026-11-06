@@ -198,7 +198,7 @@ h1 em {
 .game-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 38px;
+  gap: 70px 38px;
 }
 .game-art {
   position: relative;
@@ -219,6 +219,9 @@ h1 em {
 }
 .game-sands .game-art > img:first-child {
   object-position: 42% center;
+}
+.game-montage .game-art > img:first-child {
+  object-position: 28% center;
 }
 .game-art:after {
   content: "";
@@ -505,7 +508,7 @@ h2 {
     grid-template-columns: 1.5fr 1fr;
   }
   .game-grid {
-    gap: 25px;
+    gap: 50px 25px;
   }
   .game-art {
     aspect-ratio: 1.15;

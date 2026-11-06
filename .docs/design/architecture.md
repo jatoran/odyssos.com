@@ -12,6 +12,9 @@ GitHub stores the source but does not automatically deploy it.
 
 Lone Sands links to https://lonesands.com/ and its film section.
 Horizon links to https://horizonofsteel.com/, its press kit, and Steam app 5438430 with studio-specific UTM parameters.
+It's a Montage has no site or Steam app yet: its card links the trailer served from `site/media/`, and the Discord.
+That file is 23.5 MB, under Workers' 25 MiB limit for one asset.
+Odyssos links to the game at https://odyssos.io/ and its itch.io page.
 Contact uses `contact@odyssos.com`.
 The existing Kit embed retains form ID `6adb48b02b` and its current Horizon-specific audience.
 Newsletter submissions go directly to Kit; this site does not handle or store email addresses.
