@@ -4,6 +4,7 @@
 
 Cloudflare Worker `odyssos` serves the buildless `site/` directory through ASSETS.
 It accepts GET and HEAD, redirects www to the apex, and uses the asset service's 404-page handling.
+It answers byte ranges for `/media/*.mp4` itself, because the asset service returns a whole file with a 200 and Safari will not play video from a server that does.
 No server-side database or account system is needed.
 GitHub stores the source but does not automatically deploy it.
 `npm run deploy` publishes a version through the existing Wrangler OAuth session.
