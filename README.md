@@ -21,6 +21,6 @@ The Kit form `6adb48b02b` remains explicitly scoped to Horizon of Steel.
 Do not label that form as studio-wide or Lone Sands updates without changing its subscriber preferences and email automation first.
 The Discord invitation (`discord.gg/vQJ4BgkZwd`) is the studio's server, which covers every Odyssos game; Horizon of Steel has its own category there.
 New games should receive their own catalog entry with real artwork, accurate availability, and working links.
-It's a Montage has no Steam app yet, so its card says "Coming to Steam" and links its trailer (`site/media/its-a-montage-trailer.mp4`); add the wishlist link once the store page is public.
+It's a Montage's card says "Coming to Steam" and links its own site, https://itsamontage.com/, and press kit; add the wishlist link once the store page is public. `site/media/its-a-montage-trailer.mp4` stays for links shared before the game had its own site.
 
 See [.docs/design/00_OVERVIEW.md](.docs/design/00_OVERVIEW.md) for the documentation map.
