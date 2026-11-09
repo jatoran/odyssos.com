@@ -19,6 +19,7 @@ The catalog currently includes Lone Sands, Horizon of Steel, It's a Montage and 
 ## Invariants
 
 Game availability and external destinations must be real.
+Copy follows Adam's voice and never asks for wishlists, reviews or follows; [README.md](../../README.md) (Copy) has the rules.
 Horizon subscribers are not silently signed up for unrelated games.
 Existing email DNS and addresses remain independent of website deployment.
 The site works without JavaScript except the third-party Kit embed.
